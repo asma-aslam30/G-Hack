@@ -11,22 +11,28 @@ import FeatureFF from "./components/featureSection"
 import FeatureSecond from "./components/featureSection2";
 import Signup from "./components/signUp"
 import HeroSec from "./components/herosec";
+import View from "./components/viewproduct";
+import ProductSingle from "./components/productssingle"
 export default function Home() {
   return (
      <>
 
      <Header/>
+     <DownHeader/>
      <HeroSec/>
+     <View/>
      <HeroSection/>
      <RelatedProducts/>
      <BrandSection/>
      <ShoppingCart/>
-     <DownHeader/>
+    
      <BrandBuilt/>
      <FeatureFF/>
      <FeatureSecond/>
      <Signup/>
      <Footer/>
+
+     <ProductSingle/>
      
      </>
   );
