@@ -40,7 +40,7 @@ const Footer = () => {
             placeholder="you@gmail.com"
             className="bg-input-bg w-80 mt-5 h-12 p-5 rounded-sm"
           />
-          <button className="bg-white h-12 w-32 rounded-sm mt-1">
+          <button className="bg-white h-12 w-32 rounded-sm mt-1 bg-[#2A254B]">
             Sign Up
           </button>
         </div>

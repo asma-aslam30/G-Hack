@@ -5,15 +5,15 @@ const BrandSection = () => {
     <div className="bg-gray-50">
       {/* Brand Difference Section */}
       <section className="py-16">
-        <div className="container mx-auto px-6 sm:px-12 lg:px-20 text-center">
-          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-8">
+        <div className="container  px-6 sm:px-12 lg:px-20 text-left ">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-8 text-center">
             What makes our brand different
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Feature 1 */}
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center  text-left">
               <div className="text-4xl text-gray-600 mb-4">🚚</div>
-              <h3 className="text-lg font-medium text-gray-800">
+              <h3 className="text-lg font-medium text-gray-800 text-left">
                 Next day as standard
               </h3>
               <p className="text-gray-600 text-sm">
@@ -21,9 +21,9 @@ const BrandSection = () => {
               </p>
             </div>
             {/* Feature 2 */}
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center  text-left">
               <div className="text-4xl text-gray-600 mb-4">✔️</div>
-              <h3 className="text-lg font-medium text-gray-800">
+              <h3 className="text-lg font-medium text-gray-800 text-left">
                 Made by true artisans
               </h3>
               <p className="text-gray-600 text-sm">
@@ -31,9 +31,9 @@ const BrandSection = () => {
               </p>
             </div>
             {/* Feature 3 */}
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center  text-left">
               <div className="text-4xl text-gray-600 mb-4">💳</div>
-              <h3 className="text-lg font-medium text-gray-800">
+              <h3 className="text-lg font-medium text-gray-800 text-left">
                 Unbeatable prices
               </h3>
               <p className="text-gray-600 text-sm">
@@ -42,9 +42,9 @@ const BrandSection = () => {
               </p>
             </div>
             {/* Feature 4 */}
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center  text-left">
               <div className="text-4xl text-gray-600 mb-4">♻️</div>
-              <h3 className="text-lg font-medium text-gray-800">
+              <h3 className="text-lg font-medium text-gray-800 text-left">
                 Recycled packaging
               </h3>
               <p className="text-gray-600 text-sm">
@@ -57,8 +57,8 @@ const BrandSection = () => {
       </section>
 
       {/* Newsletter Section */}
-      <section className="bg-white py-16">
-        <div className="container mx-auto px-6 sm:px-12 lg:px-20 text-center">
+      {/* <section className="bg-white py-16">
+        <div className="container mx-auto px-6 sm:px-12 lg:px-20  text-left">
           <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">
             Join the club and get the benefits
           </h2>
@@ -80,7 +80,7 @@ const BrandSection = () => {
             </button>
           </form>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

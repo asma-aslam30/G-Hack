@@ -20,19 +20,24 @@ export default function Home() {
      <Header/>
      <DownHeader/>
      <HeroSec/>
-     <View/>
-     <HeroSection/>
-     <RelatedProducts/>
      <BrandSection/>
-     <ShoppingCart/>
-    
-     <BrandBuilt/>
+     <ProductSingle/>
      <FeatureFF/>
-     <FeatureSecond/>
      <Signup/>
      <Footer/>
 
-     <ProductSingle/>
+     {/* <View/>
+     <HeroSection/>
+     <RelatedProducts/>
+     
+     <ShoppingCart/>
+     
+     <BrandBuilt/>
+     
+     <FeatureSecond/> */}
+     
+
+     
      
      </>
   );

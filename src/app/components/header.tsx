@@ -56,12 +56,9 @@ const Header = () => {
                 </a>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a
-                  href="javascript:void(0)"
-                  className="hover:text-[#2A254B] text-[#2A254B] block font-bold text-[15px]"
-                >
-                  Home
-                </a>
+                <Link href="/" className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">Home
+                  
+                </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <a
@@ -89,9 +86,17 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <Link href="/about" className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">About
-                  {/* <a className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">
-                    About
-                  </a> */}
+                  
+                </Link>
+              </li>
+              <li className="max-lg:border-b max-lg:py-3 px-3">
+                <Link href="/shopping" className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">Shopping
+                  
+                </Link>
+              </li>
+              <li className="max-lg:border-b max-lg:py-3 px-3">
+                <Link href="/product" className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">Products
+                  
                 </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">

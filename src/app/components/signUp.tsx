@@ -1,8 +1,9 @@
-import React from "react";
+ 
+ 
 const Signup=()=>{
     return(
         <>
-        <div className="bg-white py-16 px-6 font-[sans-serif]">
+        <div className="bg-white py-16 px-6 font-[sans-serif] ">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl  mb-6 text-black font-clash-display">Join the club and get the benefits</h2>
         <p className="text-base text-[#2A254B]">Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
